@@ -14,4 +14,6 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.editing-support.nvim-regexplainer" },
+  { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
 }
