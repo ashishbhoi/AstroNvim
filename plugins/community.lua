@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
   { import = "astrocommunity.editing-support.nvim-regexplainer" },
@@ -40,7 +41,8 @@ return {
       { "<leader>Oq", "<cmd>OverseerQuickAction<cr>",  desc = "Overseer Quick Action" },
       { "<leader>OT", "<cmd>OverseerTaskAction<cr>",   desc = "Overseer Task Action" },
       { "<leader>OC", "<cmd>OverseerClearCache<cr>",   desc = "Overseer Clear Cache" },
-      { "<Leader>O",  desc = "Overseer",               name = "Overseer" },
+      { "<Leader>O",  name = "Overseer",               desc = "Overseer" },
     },
   },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
 }
