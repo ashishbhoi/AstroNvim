@@ -6,29 +6,24 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
-  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
-  { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  {
-    "folke/todo-comments.nvim",
-    keys = {
-      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
-    },
-  },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  -- Community plugins with extra config
   { import = "astrocommunity.code-runner.overseer-nvim" },
   {
     "stevearc/overseer.nvim",
@@ -49,5 +44,11 @@ return {
       { "<Leader>O", name = "Overseer", desc = "Overseer" },
     },
   },
-  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  {
+    "folke/todo-comments.nvim",
+    keys = {
+      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
+    },
+  },
 }
