@@ -21,5 +21,4 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
 }
