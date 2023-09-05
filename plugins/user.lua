@@ -9,4 +9,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "rebelot/heirline.nvim",
+  opts = function (_, opts)
+    opts.winbar = nil
+    return opts
+  end
 }
